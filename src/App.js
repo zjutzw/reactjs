@@ -14,6 +14,7 @@ function App() {
   }, []);
   return (
     <main>
+      <div id='content'></div>
     </main>
   );
 }
