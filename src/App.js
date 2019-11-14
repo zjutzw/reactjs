@@ -14,7 +14,10 @@ function App() {
   }, []);
   return (
     <main>
-      test
+      <div id="namelist"></div>
+  <input type="text" name="name" id="inputname" />
+<button onclick="addname()">addname</button>
+
     </main>
   );
 }
