@@ -38,7 +38,4 @@ console.log('nameadded');
 }
 var eleAddname=document.createElement('div');
 document.getElementById("content").appendChild(eleAddname);
-eleAddname.innerHTML='
-	<div id="namelist"></div>
-	<input type="text" name="name" id="inputname" />
-<button onclick="addname()">addname</button>';
+eleAddname.innerHTML='<div id="namelist"></div><input type="text" name="name" id="inputname" /><button onclick="addname()">addname</button>';
